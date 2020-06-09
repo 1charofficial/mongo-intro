@@ -1,0 +1,148 @@
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    
+} 
+
+body {
+    background-color: #eeeeee;
+}
+.navbar {
+    background-color: #32e0c4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1.5em;
+    margin-bottom: 2.5em;
+    
+    }
+    
+
+
+.navbar ul li { 
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+    
+.navbar li a { 
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+}
+
+h1{
+    color: darkslategray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ .signup-form , .login-form
+    {
+        box-sizing: border-box;
+        width: 8em;
+        align-content:  space-around;
+
+} 
+    
+input[type="text"] {
+    width: 100%;
+    background-color: #32e0c4;
+    padding: 10px;
+    margin:10px 0; 
+    border: 2px solid #eee;
+    border-radius:15px;
+     
+}
+
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.0.2);
+    width: 8em;
+    
+  } 
+
+input[type="password"] {
+    width: 100%;
+    background-color: #32e0c4;
+    padding: 10px;
+    margin:10px 0; 
+    border: 2px solid #eee;
+    border-radius:15px;
+    
+       
+}
+
+input[type="email"] {
+    width: 100%;
+    background-color: #32e0c4;
+    padding: 10px;
+    margin:10px 0; 
+    border: 2px solid #eee;
+    border-radius:15px;
+}
+    /* // add top and bottom margin */
+
+       
+
+
+.button{
+    
+  appearance:none;
+  -webkit-appearance:none;
+  padding:10px;
+  border:none;
+  background-color: #32e0c4;
+  color:#fff;
+  font-weight:600;
+  border-radius:15px;
+  width:100%;
+  margin: 12px 0;
+}  
+
+.box2{
+    border:  none;
+    align-content: space-between;
+    width: 30%;
+    text-align: center;
+} 
+
+.box2 {
+    display: block; 
+    background: #ffd8a6;
+    border-radius: 10%;
+    height: 75vh;
+    width: 75vh;
+    margin: auto;
+    padding: 1em;
+    color: #5e60ce;
+
+}
+.box {
+    display: block; 
+    background: #ffd8a6;
+    border-radius: 10%;
+    height: 75vh;
+    width: 50vh;
+    margin: auto;
+    padding: 1em;
+    color: #5e60ce;
+    
+} 
+
+
+.user-name input, .email input, .password input, .password-repeat input{
+    padding-right: 1em;
+    padding-left: 1em;
+    width: 30vh;
+    height: 2vh;
+    border-color: #5e60ce;
+    border-style: hidden;
+    text-align: center;
+}   
