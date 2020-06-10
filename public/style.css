@@ -106,12 +106,12 @@ input[type="email"] {
   margin: 12px 0;
 }  
 
-.box2{
+/* .box2{
     border:  none;
     align-content: space-between;
     width: 30%;
     text-align: center;
-} 
+}  */
 
 .box2 {
     display: block; 

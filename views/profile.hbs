@@ -1,3 +1,8 @@
 
-{{log user}}
+{{!-- {{log user}} --}}
+
+{{#if err}}
+   <p>{{err}}</p>
+{{else}}
 <h1>Welcome {{user.userName}}! This is your profile page</h1>
+{{/if}}
