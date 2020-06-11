@@ -6,9 +6,21 @@ This is still a work in progress.
 
 Things still to complete:
 
-1. Fix error catch
-2. Write code for the comparison od user data, to data base.
-3. Get the login page to render when data is entered correctly
-4. Design the profile page and features
-4. Styling for the app
+1. Fix error catch. 
+2. Write code for the comparison of user data, to data base. (Done.)
+3. Get the login page to render when data is entered correctly (Done.)
+4. Design the profile page and features.
+5. Styling for the app.
+
  
+
+UPdate: I have added controllers folder/file and a routes folder. The app files have been seperated, making
+the project more readable and managable. 
+
+
+
+
+
+
+
+
